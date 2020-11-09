@@ -16,7 +16,7 @@ public class Frag2 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.fragment_frag1, container, false);
+        ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.fragment_frag2, container, false);
         btn2 = rootView.findViewById(R.id.btn2);
         return rootView;
     }
